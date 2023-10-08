@@ -62,6 +62,10 @@ header a:hover {
     position:relative;
     box-shadow: rgb(0,0,0,0.2) 2px 2px 50px;
     cursor:zoom-in;
+    transition:ease 1s;
+}
+.part:hover{
+    scale:1.1;
 }
 .part img {
     width:100%;
