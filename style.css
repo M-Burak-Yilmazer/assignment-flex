@@ -34,10 +34,14 @@ header a {
   text-decoration: none;
   color: white;
   padding: 1rem;
+  transition:  ease-in .5s;
+  
 }
 header a:hover {
   background-color: #f20c49;
   border-radius: 16px;
+  scale:1.2;
+  opacity: 0.5;
 }
 
 .images-part{
